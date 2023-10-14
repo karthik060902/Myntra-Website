@@ -1,0 +1,22 @@
+.word{
+    font-size: 15px;
+    text-decoration: none;
+    color: #3e4152;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    font-weight: 500;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    border-bottom: 1px solid #fff;
+}
+.word:hover{
+    border-bottom: 1px solid #000;
+    width: fit-content;
+}
+.bed:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}

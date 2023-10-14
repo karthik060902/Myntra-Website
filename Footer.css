@@ -1,0 +1,79 @@
+.text {
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.textheader {
+    color: #000;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.exp {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content1 {
+    color: #696b79;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+.appstore img {
+    width: 100%;
+    height: 100%;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+.returns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.topbrands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2rem;
+    padding-left: 210px;
+}
+.searches {
+    display: flex;
+    text-align: center;
+    padding-left: 210px;
+    padding-bottom: 5px;
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}

@@ -1,0 +1,457 @@
+.background {
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 10px 10px 10px #e2d3d3;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.hamburger {
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.category {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 14px;
+    letter-spacing: .3px;
+    color: #3b3d49;
+    transition: left .2s ease-out, width .2s ease-out;
+    font-weight: 700;
+    white-space: nowrap;
+    border-bottom: 4px solid #fff;
+    text-decoration: none;
+}
+.category:hover{
+    border-bottom: 4px solid #ee5f73;
+}
+.new {
+    font-size: 10px;
+}
+
+input[type=text] {
+    background-color: #f5f5f5;
+    border: none;
+    outline: none;
+    width: 90%;
+}
+
+.install {
+    display: none;
+}
+
+.settings {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 6px;
+}
+
+.icon {
+    font-weight: lighter;
+    font-size: 20px;
+}
+
+.header {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.viratimg {
+    padding-top: 40px;
+    width: 100%;
+}
+
+.deals {
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 700;
+}
+
+.search {
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-radius: 5px;
+    border: none;
+    width: 350px;
+    outline: none;
+    color: #95979c;
+}
+
+.profile-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.charts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    justify-content: center;
+}
+
+.text {
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.textheader {
+    color: #000;
+    padding-bottom: 5px;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.exp {
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.content1 {
+    color: #696b79;
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.searches {
+    display: flex;
+    text-align: center;
+    padding-left: 210px;
+    padding-bottom: 5px;
+    color: #000;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+.footericon {
+    display: flex;
+    gap: 20px;
+}
+
+.returns {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footericons {
+    height: 20px;
+    width: 20px;
+}
+
+.photo {
+    position: absolute;
+    top: 80px;
+    right: 250px;
+}
+
+.searchicon {
+    font-size: 20px;
+}
+
+.offerdress {
+    width: 100%;
+    height: 300px;
+}
+
+.appstore {
+    width: 150px;
+    height: 50px;
+}
+
+.appstore img {
+    width: 100%;
+    height: 100%;
+}
+
+.offershoes {
+    /* justify-content: center; */
+    display: flex;
+    width: 100%;
+}
+
+.offerdress1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px;
+}
+
+.topbrands {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #696b79;
+    font-size: 15px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    line-height: 2rem;
+    padding-left: 210px;
+}
+
+.icon-profile {
+    font-size: 20px;
+}
+.offer{
+    right: 0;
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+    height: 288px;
+    background-color: #535766;
+    z-index: 6;
+    color: #fff;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.flat{
+    -webkit-writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    width: 20px;
+   padding: 4px;
+   height: 260px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.arrow{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+@media (min-width :279px) and (max-width: 480px) and (orientation: portrait) {
+    .background {
+        padding-left: 30px;
+        padding-right: 60px;
+        width: 100%;
+    }
+
+    .header {
+        padding-top: 50px;
+        height: 250px;
+        width: 100%;
+    }
+
+    .hamburger {
+        font-size: 20px;
+        display: block;
+    }
+
+    .offerdress1 {
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+        width: 30px;
+        height: 30px;
+    }
+
+    .viratimg {
+        height: 200px;
+        width: 100%;
+    }
+
+    .icon {
+        font-size: 25px;
+    }
+
+    .returns {
+        display: none;
+    }
+
+    .category {
+        display: none;
+    }
+
+    .search input {
+        display: none;
+    }
+
+    .search {
+        background-color: white;
+        color: black;
+        width: fit-content;
+        font-size: 30;
+    }
+
+    .offerdress {
+        width: 100%;
+        height: 150px;
+    }
+
+    .install {
+        display: block;
+    }
+    .settings {
+        display: none;
+    }
+
+    .profile-sec {
+        display: none;
+    }
+
+    .icons {
+        font-size: 25px;
+    }
+
+    .searchicon {
+        font-size: 25px;
+    }
+
+    .deals {
+        display: flex;
+        justify-content: center;
+        color: #3e4152;
+        font-size: 10px;
+        white-space: nowrap
+    }
+
+    .offershoes {
+        height: 130px;
+        width: 100%;
+    }
+
+    .footer {
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .appstore {
+        width: 40%;
+    }
+
+    .offerimg {
+        width: 100vw;
+    }
+
+    .text {
+        color: #696b79;
+        font-size: 10px;
+    }
+
+    .textheader {
+        font-size: 10px;
+    }
+
+    .exp {
+        font-size: 10px;
+    }
+
+    .appstore {
+        width: 80px;
+        height: 50px;
+    }
+
+    .footericons {
+        display: flex;
+        gap: 20px;
+        width: 15px;
+        height: 15px;
+    }
+
+    .searches {
+        display: none;
+    }
+
+    .topbrands {
+        display: none;
+    }
+
+    .carousel-control-prev-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+
+    .carousel-control-next-icon {
+        width: 5rem;
+        height: 5rem;
+    }
+}
+
+@media (min-width : 480px) and (max-width: 279px) and (orientation:landscape) {
+    .nav-menu{
+        display: none;
+    }
+
+    .search input {
+        color: #000;
+        background-color: #fff;
+    }
+
+    .settings {
+        display: none;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    .offershoes {
+        height: 130px;
+        width: 100%;
+    }
+
+    .viratimg {
+        height: 300px;
+        width: 100%;
+    }
+
+    .offerdress {
+        width: 100%;
+        height: 150px;
+    }
+    .footer{
+        display: flex;
+    }
+}

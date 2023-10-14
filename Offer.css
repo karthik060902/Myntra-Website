@@ -1,0 +1,122 @@
+.offer{
+    position: fixed;
+    right: 0;
+    /* width: 44px; */
+    height: 37vh;
+    background-color: #535766;
+    color: #fff;
+    letter-spacing: 1px;
+    z-index: 999;
+}
+.flat{
+    -webkit-writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    width: 20px;
+   padding: 4px;
+   height: 260px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.arrow{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.bell{
+    color:#fff;
+    position:fixed;
+    right: 30px;
+    bottom: 80px;
+
+}
+.backgroundcolor{
+background-color: #fde6f1;
+
+height: 37vh;
+}
+.availableoffer{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: Assistant;
+    color: #3e4152;
+    cursor: default;
+    font-weight: 700;
+    font-size: 12px;
+}
+.offerprice{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Rubik', sans-serif;
+    font-family: Assistant;
+    color: #3e4152;
+    cursor: default;
+    font-weight: 700;
+    font-size: 48px;
+}
+.couponcode{
+    font-family: Assistant;
+    color: #3e4152;
+    cursor: default;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 8px;
+}
+.order{
+    font-size: 12px;
+    margin-top: 4px;
+    font-family: Assistant;
+    color: #3e4152;
+    cursor: default;
+}
+.signup{
+    background-color: #3e4152;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    height: fit-content;
+    cursor: pointer;
+}
+.line{
+    border-bottom: 1px solid #d9d1ca;   
+}
+.off{
+        -webkit-writing-mode: vertical-lr;
+        transform: rotate(-180deg);
+        width: 20px;
+       padding: 4px;
+       height: 260px;
+        vertical-align: middle;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+}
+.offers{
+    
+        right: 0px;
+        position: fixed;
+        bottom: 130px;
+        width: 44px;
+        height: 37vh;
+        background-color: #535766;
+        z-index: 9999;
+        color: #fff;
+        letter-spacing: 1px;
+    
+}
+
+.offersCard{
+    right: 0px;
+    position: fixed;
+    bottom: 130px;
+    width: 44px;
+
+    height: 37vh;
+    background-color: #535766;
+    z-index: 6;
+    letter-spacing: 1px;
+    cursor: pointer;
+    display: flex;
+}
